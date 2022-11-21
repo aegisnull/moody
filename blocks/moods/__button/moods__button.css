@@ -1,7 +1,7 @@
 .moods__button {
   width: 220px;
   height: 60px;
-  border: 1px solid black;
+  border: 1.5px solid black;
   border-radius: 40px;
   display: flex;
   justify-content: center;
