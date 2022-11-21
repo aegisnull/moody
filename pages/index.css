@@ -3,6 +3,7 @@
 @import url(../blocks/divider/divider.css);
 @import url(../blocks/moods/moods.css);
 @import url(../blocks/podcast/podcast.css);
+@import url(../blocks/footer/footer.css);
 
 body {
   background-color: #f4f1ed;
