@@ -1,0 +1,7 @@
+.hero__container {
+  margin: auto;
+  max-width: 1220px;
+  height: 446px;
+  background-color: white;
+  border-radius: 69px;
+}
