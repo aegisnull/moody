@@ -1,5 +1,6 @@
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/navbar/navbar.css);
+@import url(../blocks/divider/divider.css);
 
 body {
   background-color: #f4f1ed;
