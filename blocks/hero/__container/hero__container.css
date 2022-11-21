@@ -12,3 +12,16 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.hero__container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 150px;
+  left: 100px;
+  background-image: url("../../../images/hero__image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 3;
+}

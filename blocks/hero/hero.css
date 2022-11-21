@@ -3,6 +3,10 @@
 @import url(./__list/hero__list.css);
 @import url(./__paragraph/hero__paragraph.css);
 
+.hero {
+  padding-top: 373px;
+}
+
 .underline {
   padding: 0 8px 10px 6px;
   background-image: url("../../images/underline.svg");
