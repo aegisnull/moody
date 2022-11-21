@@ -1,3 +1,6 @@
+@import url(./_left/hero__container_left.css);
+@import url(./_right/hero__container_right.css);
+
 .hero__container {
   margin: auto;
   max-width: 1220px;
@@ -6,4 +9,6 @@
   border-radius: 69px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
