@@ -1,3 +1,5 @@
 .podcast__container {
   max-width: 1098px;
+  margin: auto;
+  padding-top: 44px;
 }
