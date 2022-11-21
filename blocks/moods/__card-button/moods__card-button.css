@@ -1,0 +1,12 @@
+@import url(./_text/moods__card-button_text.css);
+
+.moods__card-button {
+  width: 220px;
+  height: 65px;
+  background-color: black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}

@@ -4,6 +4,8 @@
 @import url(./__card/moods__card.css);
 @import url(./__feels/moods__feels.css);
 @import url(./__button/moods__button.css);
+@import url(./__subtitle/moods__subtitle.css);
+@import url(./__card-button/moods__card-button.css);
 
 .moods {
   padding-bottom: 100px;
