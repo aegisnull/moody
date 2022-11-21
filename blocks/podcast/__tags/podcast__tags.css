@@ -1,0 +1,13 @@
+.podcast__tags {
+  height: 40px;
+  border: 1.5px solid black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  line-height: 19px;
+  font-weight: 500;
+  padding-left: 28px;
+  padding-right: 28px;
+}
