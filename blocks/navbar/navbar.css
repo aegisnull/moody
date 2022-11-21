@@ -1,2 +1,7 @@
 @import url(./__logo/navbar__logo.css);
 @import url(./__container/navbar__container.css);
+@import url(./__menu/navbar__menu.css);
+
+.navbar {
+  padding: 46px 60px 0 60px;
+}
