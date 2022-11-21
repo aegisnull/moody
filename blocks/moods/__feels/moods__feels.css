@@ -1,4 +1,10 @@
 .moods__feels {
   width: 470px;
   height: 230px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
 }
