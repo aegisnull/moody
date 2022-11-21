@@ -4,4 +4,6 @@
   height: 446px;
   background-color: white;
   border-radius: 69px;
+  display: flex;
+  flex-direction: row;
 }
