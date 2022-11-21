@@ -1,5 +1,6 @@
 @import url(./__left-container/footer__left-container.css);
 @import url(./__links/footer__links.css);
+@import url(./__bottom-menu/footer__bottom-menu.css);
 
 .footer {
   max-width: 1220px;
