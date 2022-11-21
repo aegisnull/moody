@@ -3,3 +3,7 @@
 @import url(./__show/podcast__show.css);
 @import url(./__tags/podcast__tags.css);
 @import url(./__tags-container/podcast__tags-container.css);
+
+.podcast {
+  padding-bottom: 81px;
+}
