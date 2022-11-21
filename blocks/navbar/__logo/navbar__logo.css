@@ -3,7 +3,7 @@
   height: 50px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .navbar__logo {
     width: 150px;
     height: 40px;

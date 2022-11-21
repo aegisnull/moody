@@ -6,7 +6,7 @@
   padding: 46px 60px 0 60px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .navbar {
     padding: 25px 19px 0 19px;
   }
