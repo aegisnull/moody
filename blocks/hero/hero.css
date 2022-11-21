@@ -1,6 +1,7 @@
 @import url(./__title/hero__title.css);
 @import url(./__container/hero__container.css);
 @import url(./__list/hero__list.css);
+@import url(./__paragraph/hero__paragraph.css);
 
 .underline {
   padding: 0 8px 10px 6px;
