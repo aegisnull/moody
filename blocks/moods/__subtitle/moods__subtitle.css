@@ -4,4 +4,6 @@
   line-height: 24px;
   padding-top: 57px;
   margin: 0;
+  align-self: flex-start;
+  padding-left: 54px;
 }
