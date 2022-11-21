@@ -13,3 +13,9 @@
   margin-top: 30px;
   text-transform: uppercase;
 }
+
+.podcast__tags:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 0.4s;
+}
