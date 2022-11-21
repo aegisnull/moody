@@ -1,5 +1,3 @@
-@import url(./_left/moods__main_left.css);
-
 .moods__main {
   display: flex;
   justify-content: space-between;
