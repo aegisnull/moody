@@ -1,0 +1,5 @@
+.footer__right-container {
+  display: flex;
+  flex-direction: row;
+  gap: 73px;
+}
