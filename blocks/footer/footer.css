@@ -1,3 +1,5 @@
+@import url(./__left-container/footer__left-container.css);
+
 .footer {
   max-width: 1220px;
   height: 365px;
