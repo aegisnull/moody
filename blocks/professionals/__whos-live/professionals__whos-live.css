@@ -1,0 +1,7 @@
+.professionals__whos-live {
+  display: inline-block;
+}
+
+.professionals__whos-live img:not(:first-child) {
+  margin-left: -27px;
+}

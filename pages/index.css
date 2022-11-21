@@ -1,11 +1,33 @@
+/* IMPORTAR BLOQUES */
+
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/divider/divider.css);
 @import url(../blocks/moods/moods.css);
 @import url(../blocks/podcast/podcast.css);
+@import url(../blocks/professionals/professionals.css);
+@import url(../blocks/collapsible-card/collapsible-card.css);
 @import url(../blocks/footer/footer.css);
 
+/* AJUSTES GLOBALES */
+
 body {
-  background-color: #f4f1ed;
+  background-color: var(--bg-light);
   font-family: "Helvetica", sans-serif;
+  /* box-sizing: border-box; */
+
+  --bg-light: #f4f1ed;
+  --bg-dark: #000000;
+  --primary-light: #ffffff;
+  --primary-dark: #15181c;
+  --text-main: #000000;
+  --text-light: #ffffff;
+  --text-gray: #a1a1a1;
+  --test: magenta;
+
+  --light-blue-accent: #7ab8f7;
+  --moradito: #b29aff;
+  --arena: #e8dfc8;
+  --verde: #c4e587;
+  --rosa: #fd9191;
 }

@@ -1,0 +1,10 @@
+.collapsible-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 68px;
+  margin: 0;
+  /* padding: 25px 20px 30px 20px; */
+  /* gap: 5px; */
+}
