@@ -1,2 +1,12 @@
 @import url(./_left/moods__main_left.css);
 @import url(./_right/moods__main_right.css);
+
+.moods__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 930px;
+  height: 425px;
+  margin: auto;
+  padding-top: 35px;
+}
