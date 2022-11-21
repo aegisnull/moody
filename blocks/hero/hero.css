@@ -1,2 +1,12 @@
 @import url(./__title/hero__title.css);
 @import url(./__container/hero__container.css);
+
+.underline {
+  padding: 0 8px 10px 6px;
+  background-image: url("../../images/underline.svg");
+  -webkit-background-position: 50% 100%;
+  background-position: 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
