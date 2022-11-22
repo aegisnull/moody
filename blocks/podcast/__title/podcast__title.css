@@ -5,3 +5,11 @@
   letter-spacing: -0.02em;
   margin: 0;
 }
+
+@media screen and (max-width: 830px) {
+  .podcast__title {
+    font-size: 44px;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+  }
+}

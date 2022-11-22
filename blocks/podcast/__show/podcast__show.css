@@ -8,6 +8,7 @@
 @media screen and (max-width: 900px) {
   .podcast__show {
     width: 80vw;
+    padding-top: 31px;
   }
 }
   
