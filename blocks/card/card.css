@@ -40,3 +40,25 @@
 .card:nth-of-type(5) {
   transform: rotate(-2.46deg);
 }
+
+@media screen and (max-width: 800px) {
+  .card:nth-of-type(1) {
+    transform: unset;
+  }
+
+  .card:nth-of-type(2) {
+    transform: unset;
+  }
+
+  .card:nth-of-type(3) {
+    transform: unset;
+  }
+
+  .card:nth-of-type(4) {
+    transform: unset;
+  }
+
+  .card:nth-of-type(5) {
+    transform: unset;
+  }
+}
