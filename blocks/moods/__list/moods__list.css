@@ -1,9 +1,21 @@
 .moods__list {
-  width: 302px;
+  max-width: 302px;
 }
 
 .moods__list li {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+  .moods__list {
+    max-width: 215px;
+    padding: 0;
+  }
+
+  .moods__list li {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }

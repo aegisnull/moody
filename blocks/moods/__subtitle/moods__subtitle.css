@@ -7,3 +7,10 @@
   align-self: flex-start;
   padding-left: 54px;
 }
+
+@media screen and (max-width: 400px) {
+  .moods__subtitle {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

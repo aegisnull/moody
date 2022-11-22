@@ -11,3 +11,10 @@
   color: white;
   margin-bottom: 40px;
 }
+
+@media screen and (max-width: 400px) {
+  .moods__card-button {
+    width: 196px;
+    height: 55px;
+  }
+}

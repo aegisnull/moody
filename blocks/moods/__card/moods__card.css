@@ -9,3 +9,9 @@
   margin: 0;
   justify-content: space-around;
 }
+
+@media screen and (max-width: 400px) {
+  .moods__card {
+    width: 90vw;
+  }
+}
