@@ -39,7 +39,7 @@ body {
   --rosa: #fd9191;
 }
 
-section {
+/* section {
   -webkit-transform: translateY(50px) rotate(-5deg) translateZ(0);
   transform: translateY(50px) rotate(-5deg) translateZ(0);
   -webkit-transition-delay: 0.3s;
@@ -49,7 +49,7 @@ section {
   -o-transition: 0.4s;
   transition: 0.4s;
   opacity: 0;
-}
+} */
 
 .inView {
   opacity: 1;
