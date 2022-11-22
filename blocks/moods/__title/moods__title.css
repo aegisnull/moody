@@ -12,11 +12,19 @@
   padding-top: 41px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1210px) {
+  .moods__title {
+    font-size: 42px;
+    width: 90vw;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .moods__title {
     font-size: 44px;
     line-height: 56px;
-    letter-spacing: -0.02em;
     width: 73%;
   }
 }
