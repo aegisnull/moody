@@ -4,6 +4,13 @@
   gap: 25px;
 }
 
+@media screen and (max-width: 800px) {
+  .footer__left-container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
 @media screen and (max-width: 613px) {
   .footer__left-container {
     flex-direction: column;
