@@ -8,5 +8,6 @@
 @media screen and (max-width: 613px) {
   .footer__top-menu {
     flex-direction: column;
+    padding-bottom: 48px;
   }
 }
