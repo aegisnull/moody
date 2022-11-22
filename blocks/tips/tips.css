@@ -8,3 +8,17 @@
   padding-top: 44px;
   padding-bottom: 81px;
 }
+
+@media screen and (max-width: 768px) {
+  .tips {
+    padding-top: 40px;
+    padding-bottom: 62.3px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tips {
+    padding-top: 33px;
+    padding-bottom: 50px;
+  }
+}
