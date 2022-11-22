@@ -5,3 +5,20 @@
   letter-spacing: -0.02em;
   margin: 0;
 }
+
+@media screen and (max-width: 1112px) {
+  .professionals__title {
+    font-size: 42px;
+    line-height: 39px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .professionals__title {
+    font-size: 44px;
+    line-height: 41px;
+    padding-left: 24px;
+    width: 248px;
+  }
+}
