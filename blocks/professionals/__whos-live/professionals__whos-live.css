@@ -5,3 +5,9 @@
 .professionals__whos-live img:not(:first-child) {
   margin-left: -27px;
 }
+
+@media screen and (max-width: 1112px) {
+  .professionals__whos-live {
+    padding-right: 9px;
+  }
+}
