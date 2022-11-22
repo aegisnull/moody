@@ -1,0 +1,13 @@
+.professionals__btn {
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 260px;
+  height: 65px;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-size: 20px;
+  line-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}

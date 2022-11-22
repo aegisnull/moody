@@ -1,0 +1,88 @@
+@import url(./_expanded/collapsible-card_expanded.css);
+@import url(./__image/collapsible-card__image.css);
+@import url(./__info/collapsible-card__info.css);
+@import url(./__title/collapsible-card__title.css);
+@import url(./__subtitle/collapsible-card__subtitle.css);
+@import url(./__data/collapsible-card__data.css);
+
+.collapsible-card {
+  background-color: var(--primary-light);
+  border-radius: 18px;
+  width: 212px;
+  height: 270px;
+  overflow: hidden;
+  transition: height 0.2s ease;
+  box-shadow: 0px 5px 7px #77777740;
+  text-align: center;
+}
+
+.collapsible-card:hover {
+  cursor: pointer;
+}
+
+.profile--unexpanded > .profile__data,
+.profile--expanded > .profile__data {
+  width: 100%;
+  text-align: center;
+  padding-top: inherit;
+  height: 66px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.profile--unexpanded > .profile__data {
+  opacity: 0;
+  animation: unreveal 0.2s ease;
+}
+.profile--expanded > .profile__data {
+  opacity: 1;
+  animation: reveal 0.7s ease;
+}
+.profile__data > * > * {
+  display: block;
+}
+.profile__data > * > *:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.profile__data > * > *:nth-child(2) {
+  font-size: 0.9rem;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes unreveal {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+@keyframes expand {
+  0% {
+    height: 180px;
+  }
+  100% {
+    height: 240px;
+  }
+}
+@keyframes unexpand {
+  0% {
+    height: 240px;
+  }
+  100% {
+    height: 180px;
+  }
+}

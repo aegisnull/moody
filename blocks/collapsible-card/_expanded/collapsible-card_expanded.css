@@ -1,0 +1,4 @@
+.collapsible-card_expanded {
+  height: 240px;
+  animation: expand 0.5s ease;
+}

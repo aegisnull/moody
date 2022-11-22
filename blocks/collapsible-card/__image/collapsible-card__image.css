@@ -1,0 +1,7 @@
+.collapsible-card__img {
+  height: 202px;
+  width: 100%;
+  border-radius: 18px 18px 0 0;
+  display: block;
+  object-fit: cover;
+}
