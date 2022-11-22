@@ -1,0 +1,10 @@
+.menu__container {
+  width: 100vw;
+  height: 60vh;
+  background-color: #2f2f2f;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
