@@ -6,5 +6,6 @@
 @media screen and (max-width: 600px) {
   .professionals__header {
     flex-direction: column;
+    gap: 35px;
   }
 }
