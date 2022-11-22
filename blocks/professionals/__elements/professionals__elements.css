@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 543px) {
+@media screen and (max-width: 600px) {
   .professionals__elements {
     flex-direction: column;
     align-items: center;
