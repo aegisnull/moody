@@ -3,3 +3,9 @@
   flex-direction: row;
   gap: 73px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__right-container {
+    flex-direction: column;
+  }
+}

@@ -4,3 +4,10 @@
   font-weight: 400;
   color: #a2a2a2;
 }
+
+@media screen and (max-width: 613px) {
+  .footer__links {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
