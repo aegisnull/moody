@@ -19,3 +19,11 @@
   color: #ffffff;
   transition: 0.4s;
 }
+
+@media screen and (max-width: 830px) {
+  .podcast__tags {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 15px;
+  }
+}

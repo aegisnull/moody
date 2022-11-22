@@ -4,3 +4,9 @@
   gap: 16px;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 830px) {
+  .podcast__tags-container {
+    gap: 10px;
+  }
+}
