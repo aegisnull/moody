@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 1112px) {
-  .professionals__btn {
+  .professionals__button {
     width: 229px;
     margin-right: 30px;
     font-size: 16px;
@@ -28,7 +28,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .professionals__btn {
+  .professionals__button {
     margin: auto;
   }
 }
