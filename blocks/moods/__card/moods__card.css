@@ -10,6 +10,13 @@
   justify-content: space-around;
 }
 
+@media screen and (max-width: 800px) {
+  .moods__card {
+    width: 325px;
+    height: 353px;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .moods__card {
     width: 90vw;
