@@ -20,10 +20,18 @@
   transition: 0.4s;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 800px) {
   .podcast__tags {
-    margin-top: 10px;
+    margin-top: 41px;
     font-size: 16px;
     line-height: 15px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .podcast__tags {
+    margin-top: 10px;
   }
 }
