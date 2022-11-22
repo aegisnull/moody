@@ -1,0 +1,12 @@
+.card__footer {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.025em;
+  height: 87px;
+  border-radius: 0 0 18px 18px;
+  padding: 12px;
+  box-sizing: border-box;
+}

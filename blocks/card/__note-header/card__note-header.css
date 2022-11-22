@@ -1,0 +1,6 @@
+.card__note-header {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: flex-end;
+}

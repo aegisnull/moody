@@ -1,0 +1,11 @@
+.card__note {
+  background-color: var(--primary-light);
+  width: 80%;
+  height: 80%;
+  box-shadow: 0px 3px 5px rgba(119, 119, 119, 0.25);
+  padding: 15px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+.card__header {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 34px;
+  letter-spacing: 0.025em;
+  color: var(--text-main);
+  border-radius: 18px 18px 0 0;
+  padding: 12px;
+  height: 87px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}

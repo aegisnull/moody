@@ -1,0 +1,22 @@
+@import url(./_order/card_order.css);
+@import url(./_pomodoro/card_pomodoro.css);
+@import url(./_nutrition/card_nutrition.css);
+@import url(./_exercise/card_exercise.css);
+@import url(./_stress/card_stress.css);
+@import url(./__header/card__header.css);
+@import url(./__content-box/card__content-box.css);
+@import url(./__note/card__note.css);
+@import url(./__note-header/card__note-header.css);
+@import url(./__note-list/card__note-list.css);
+@import url(./__decoration/card__decoration.css);
+@import url(./__note-icon/card__note-icon.css);
+@import url(./__note-accent/card__note-accent.css);
+@import url(./__text/card__text.css);
+@import url(./__footer/card__footer.css);
+
+.card {
+  height: 470px;
+  width: 315px;
+  border-radius: 18px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
