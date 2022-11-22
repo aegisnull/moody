@@ -4,7 +4,15 @@
   padding-left: 93px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1210px) {
+  .hero__container_left {
+    width: 260px;
+    height: 296px;
+    padding-left: 58px;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .hero__container_left {
     padding-top: 58px;
     width: 81%;

@@ -7,7 +7,13 @@
   padding: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1210px) {
+  .hero__list {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .hero__list {
     gap: 68px;
     flex-direction: column;
