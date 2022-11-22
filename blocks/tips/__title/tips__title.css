@@ -1,6 +1,27 @@
 .tips__title {
   font-size: 56px;
   font-weight: 500;
-  line-height: 56px;
+  line-height: 52px;
   letter-spacing: -0.02em;
+}
+
+.tips__title::after {
+  content: "..!";
+}
+
+@media screen and (max-width: 879px) {
+  .tips__title {
+    font-size: 42px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .tips__title {
+    font-size: 44px;
+  }
+
+  .tips__title::after {
+    content: "";
+  }
 }
