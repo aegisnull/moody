@@ -7,4 +7,6 @@
   top: 0;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
+  display: flex;
+  flex-direction: row;
 }
