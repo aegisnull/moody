@@ -16,6 +16,7 @@
   .professionals__elements {
     flex-direction: column;
     align-items: center;
+    margin: 35px auto 40px;
     gap: 40px;
   }
 }
