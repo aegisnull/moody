@@ -3,3 +3,10 @@
   margin: auto;
   padding-top: 44px;
 }
+
+@media screen and (max-width: 900px) {
+  .podcast__container {
+    width: 90vw;
+    padding-top: 33px;
+  }
+}

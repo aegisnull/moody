@@ -1,4 +1,21 @@
 .hero__container_right {
   width: 492px;
   height: 319px;
+  padding-right: 93px;
+}
+
+@media screen and (max-width: 1210px) {
+  .hero__container_right {
+    width: 308px;
+    height: 346px;
+    padding-right: 62px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero__container_right {
+    width: 80%;
+    height: 100%;
+    padding-right: 0px;
+  }
 }

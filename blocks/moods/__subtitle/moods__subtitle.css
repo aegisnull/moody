@@ -7,3 +7,20 @@
   align-self: flex-start;
   padding-left: 54px;
 }
+
+@media screen and (max-width: 800px) {
+  .moods__subtitle {
+    font-size: 32px;
+    line-height: 24px;
+    padding-top: 39px;
+    padding-left: 39px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .moods__subtitle {
+    font-size: 24px;
+    padding-top: 41px;
+    padding-left: 42px;
+  }
+}
