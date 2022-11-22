@@ -2,6 +2,9 @@
 @import url(./__container/menu__container.css);
 @import url(./__logo/menu__logo.css);
 @import url(./__close/menu__close.css);
+@import url(./__social-list/menu__social-list.css);
+@import url(./__list-title/menu__list-title.css);
+@import url(./__social/menu__social.css);
 
 .menu {
 }

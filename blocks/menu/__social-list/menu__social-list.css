@@ -1,0 +1,5 @@
+.menu__social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
