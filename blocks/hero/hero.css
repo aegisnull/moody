@@ -17,3 +17,9 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding-top: 145px;
+  }
+}
