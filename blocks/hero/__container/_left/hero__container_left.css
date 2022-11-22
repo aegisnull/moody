@@ -1,6 +1,7 @@
 .hero__container_left {
   width: 500px;
   height: 270px;
+  padding-left: 93px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -9,5 +10,6 @@
     width: 81%;
     height: 100%;
     padding-bottom: 44px;
+    padding-left: 0;
   }
 }
