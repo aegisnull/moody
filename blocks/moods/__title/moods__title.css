@@ -3,11 +3,20 @@
   font-weight: 500;
   line-height: 56px;
   letter-spacing: -0.02em;
-  width: 1049px;
-  height: 166px;
+  max-width: 1049px;
   margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 41px;
+}
+
+@media screen and (max-width: 1024px) {
+  .moods__title {
+    font-size: 44px;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    width: 73%;
+  }
 }
