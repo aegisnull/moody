@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1296px) {
   .professionals__elements {
-    width: 469px;
+    max-width: 469px;
     gap: 45px;
   }
 }
