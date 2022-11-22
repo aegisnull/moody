@@ -1,6 +1,5 @@
 .professionals__elements {
-  margin-top: 90px;
-  margin-bottom: 80px;
+  margin: 90px auto 80px;
   display: flex;
   justify-content: space-between;
 }
