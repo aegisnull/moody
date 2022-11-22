@@ -13,18 +13,6 @@
   align-items: center;
 }
 
-.hero__container::before {
-  content: url("../../../images/hero__image.svg");
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  top: 170px;
-  left: calc(25%);
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 3;
-}
-
 @media screen and (max-width: 1024px) {
   .hero__container {
     width: 100vw;
@@ -33,13 +21,5 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .hero__container::before {
-    content: url("../../../images/hero__image_small.svg");
-    top: 110px;
-    left: calc(5%);
   }
 }
