@@ -5,6 +5,7 @@
 @import url(./__social-list/menu__social-list.css);
 @import url(./__list-title/menu__list-title.css);
 @import url(./__social/menu__social.css);
+@import url(./__nav/menu__nav.css);
 
 .menu {
 }

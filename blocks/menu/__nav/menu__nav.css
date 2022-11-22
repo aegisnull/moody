@@ -1,0 +1,7 @@
+@import url(./_item/menu__nav_item.css);
+
+.menu__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

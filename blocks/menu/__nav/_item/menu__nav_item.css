@@ -1,0 +1,11 @@
+.menu__nav_item {
+  list-style: none;
+  font-size: 44px;
+  line-height: 41px;
+  font-weight: 500;
+  color: white;
+}
+
+.menu__nav_item::before {
+  content: "– ";
+}
