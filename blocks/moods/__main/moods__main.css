@@ -2,9 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 930px;
-  height: 425px;
+  max-width: 930px;
   margin: auto;
   padding-top: 35px;
   gap: 90px;
+}
+
+@media screen and (max-width: 1024px) {
+  .moods__main {
+    flex-direction: column;
+  }
 }
