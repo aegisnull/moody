@@ -10,6 +10,13 @@
 
 @media screen and (max-width: 1024px) {
   .moods__main {
+    width: 90vw;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .moods__main {
     flex-direction: column;
     padding-top: 42px;
     gap: 42px;
