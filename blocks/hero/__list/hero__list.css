@@ -6,3 +6,14 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero__list {
+    gap: 68px;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 42px;
+  }
+}

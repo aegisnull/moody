@@ -5,3 +5,17 @@
   text-align: justify;
   padding-left: 27px;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero__paragraph {
+    padding-left: 0;
+    font-size: 16px;
+  }
+
+  .hero__paragraph::before {
+    content: url(../../../images/bulletpoint.svg);
+    position: relative;
+    top: -33px;
+    left: calc(50%);
+  }
+}

@@ -2,3 +2,10 @@
   width: 492px;
   height: 319px;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero__container_right {
+    width: 80%;
+    height: 100%;
+  }
+}

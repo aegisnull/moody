@@ -4,3 +4,11 @@
   line-height: 64px;
   margin: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+  }
+}

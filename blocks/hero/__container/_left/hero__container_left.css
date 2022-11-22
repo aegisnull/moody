@@ -6,5 +6,8 @@
 @media screen and (max-width: 1024px) {
   .hero__container_left {
     padding-top: 58px;
+    width: 80%;
+    height: 100%;
+    padding-bottom: 44px;
   }
 }
