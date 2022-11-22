@@ -6,6 +6,7 @@
 @import url(./__column/footer__column.css);
 @import url(./__top-menu/footer__top-menu.css);
 @import url(./__right-container/footer__right-container.css);
+@import url(./__socials/footer__socials.css);
 
 .footer {
   max-width: 1220px;
