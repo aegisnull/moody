@@ -1,10 +1,38 @@
 .moods__feels {
-  width: 470px;
-  height: 230px;
+  width: 480px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: auto;
+  gap: 25px;
+}
+
+@media screen and (max-width: 949px) {
+  .moods__feels {
+    width: 580px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .moods__feels {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .moods__feels {
+    width: 420px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .moods__feels {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+  }
 }

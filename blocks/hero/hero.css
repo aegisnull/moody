@@ -2,10 +2,15 @@
 @import url(./__container/hero__container.css);
 @import url(./__list/hero__list.css);
 @import url(./__paragraph/hero__paragraph.css);
+@import url(./__image/hero__image.css);
 
 .hero {
-  padding-top: 373px;
+  padding-top: 54px;
   padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .underline {
@@ -16,4 +21,10 @@
   -webkit-background-size: contain;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  .hero {
+    padding-top: 12px;
+  }
 }

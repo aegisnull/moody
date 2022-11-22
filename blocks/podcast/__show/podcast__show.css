@@ -3,3 +3,23 @@
   padding-top: 68px;
   margin: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .podcast__show {
+    max-width: 520px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .podcast__show {
+    width: 80vw;
+    padding-top: 31px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .podcast__show {
+    max-width: 224px;
+  }
+}
