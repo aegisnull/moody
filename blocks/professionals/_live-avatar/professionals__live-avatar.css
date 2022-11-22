@@ -1,4 +1,8 @@
 .professionals__live-avatar {
   width: 42px;
   height: 42px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
 }

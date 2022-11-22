@@ -1,0 +1,6 @@
+.card_stress {
+  background: url(../../../images/card_stress.png);
+  background-size: 100% 100%;
+  opacity: 0.8;
+  transform: rotate(-2.46deg);
+}

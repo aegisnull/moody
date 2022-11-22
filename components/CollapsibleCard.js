@@ -1,30 +1,48 @@
-const collapsibleCards = document.querySelectorAll(".profile");
-console.log(collapsibleCards);
+let elementsArray = document.querySelectorAll("section");
+console.log(elementsArray);
+window.addEventListener("scroll", fadeIn);
 
-collapsibleCards.forEach((card) =>
-  card.addEventListener("click", () => expand(card))
-);
-
-function expand(card) {
-  card.classList.toggle("profile--expanded");
-
-  // If card is not expanded after toggle, add 'unexpanded' class
-  if (!card.classList.contains("profile--expanded"))
-    card.classList.toggle("profile--unexpanded");
-  // Else if card is expanded after toggle and still contains 'unexpanded' class, remove 'unexpanded'
-  else if (
-    card.classList.contains("profile--expanded") &&
-    card.classList.contains("profile--unexpanded")
-  )
-    card.classList.toggle("profile--unexpanded");
+function fadeIn() {
+  for (var i = 0; i < elementsArray.length; i++) {
+    var elem = elementsArray[i];
+    var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+    if (distInView < 0) {
+      elem.classList.add("inView");
+    } else {
+      elem.classList.remove("inView");
+    }
+  }
 }
 
-function toggleTheme() {
-  let docu = document.querySelector("html");
+fadeIn();
 
-  docu.classList.toggle("light-theme");
-  docu.classList.toggle("dark-theme");
-}
+// const collapsibleCards = document.querySelectorAll(".profile");
+// console.log(collapsibleCards);
+
+// collapsibleCards.forEach((card) =>
+//   card.addEventListener("click", () => expand(card))
+// );
+
+// function expand(card) {
+//   card.classList.toggle("profile--expanded");
+
+//   // If card is not expanded after toggle, add 'unexpanded' class
+//   if (!card.classList.contains("profile--expanded"))
+//     card.classList.toggle("profile--unexpanded");
+//   // Else if card is expanded after toggle and still contains 'unexpanded' class, remove 'unexpanded'
+//   else if (
+//     card.classList.contains("profile--expanded") &&
+//     card.classList.contains("profile--unexpanded")
+//   )
+//     card.classList.toggle("profile--unexpanded");
+// }
+
+// function toggleTheme() {
+//   let docu = document.querySelector("html");
+
+//   docu.classList.toggle("light-theme");
+//   docu.classList.toggle("dark-theme");
+// }
 
 // export default CollapsibleCard {
 //     constructor({ cardName, src }, templateSelector, { handleCardClick }) {
@@ -59,7 +77,7 @@ function toggleTheme() {
 //       }
 
 //       _like(evt) {
-//         evt.target.classList.toggle("elements__like-btn_active");
+//         evt.target.classList.toggle("elements__like-button_active");
 //       }
 
 //       _expand(card) {

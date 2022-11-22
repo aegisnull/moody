@@ -1,0 +1,10 @@
+@import url(./__title/tips__title.css);
+@import url(./__elements/tips__elements.css);
+
+.tips {
+  max-width: 1098px;
+  width: 80%;
+  margin: auto;
+  padding-top: 44px;
+  padding-bottom: 81px;
+}
