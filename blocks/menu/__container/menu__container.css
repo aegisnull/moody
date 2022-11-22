@@ -1,6 +1,6 @@
 .menu__container {
   width: 100vw;
-  height: 60vh;
+  height: 500px;
   background-color: #2f2f2f;
   position: fixed;
   z-index: 2;
@@ -9,4 +9,6 @@
   border-bottom-right-radius: 40px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
 }
