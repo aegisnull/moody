@@ -1,0 +1,8 @@
+.comments__container {
+  box-sizing: border-box;
+  max-width: 1098px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 43px;
+}

@@ -1,0 +1,21 @@
+@import url(./__title/comments__title.css);
+@import url(./__container/comments__container.css);
+@import url(./__bubble/comments__bubble.css);
+@import url(./__bubble-box/comments__bubble-box.css);
+@import url(./__bubble-name/comments__bubble-name.css);
+@import url(./__bubble-avatar/comments__bubble-avatar.css);
+@import url(./__bubble-comment/comments__bubble-comment.css);
+@import url(./__button/comments__button.css);
+
+.comments {
+  max-width: 1098px;
+  margin: auto;
+  padding-top: 44px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .comments {
+    padding-bottom: 50px;
+  }
+}
