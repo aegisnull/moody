@@ -5,3 +5,9 @@
   padding-left: 60px;
   padding-bottom: 64px;
 }
+
+@media screen and (max-width: 900px) {
+  .menu__social-list {
+    padding-bottom: 49px;
+  }
+}
