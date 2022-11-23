@@ -10,3 +10,7 @@
 .menu {
   display: none;
 }
+
+.menu_active {
+  display: block;
+}

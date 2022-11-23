@@ -4,4 +4,9 @@
   justify-content: space-between;
   width: 90vw;
   position: fixed;
+  z-index: 99;
+}
+
+.navbar__container_inactive {
+  display: none;
 }
