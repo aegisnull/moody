@@ -8,3 +8,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 573px) {
+  .popup__container {
+    width: 80vw;
+  }
+}

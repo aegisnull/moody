@@ -7,3 +7,10 @@
   margin-top: 16px;
   margin-bottom: 24px;
 }
+
+@media screen and (max-width: 573px) {
+  .popup__textarea {
+    width: 95%;
+    margin-bottom: 6px;
+  }
+}

@@ -3,4 +3,21 @@
   font-weight: 700;
   line-height: 41px;
   padding-left: 24px;
+  color: black;
+}
+
+@media screen and (max-width: 573px) {
+  .popup__title {
+    width: 75%;
+    font-size: 25px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .popup__title {
+    width: 75%;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

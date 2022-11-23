@@ -6,3 +6,9 @@
   height: 30px;
   margin-left: 6px;
 }
+
+@media screen and (max-width: 573px) {
+  .popup__input {
+    width: 95%;
+  }
+}
