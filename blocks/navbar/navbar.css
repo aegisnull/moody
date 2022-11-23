@@ -4,6 +4,8 @@
 
 .navbar {
   padding: 46px 60px 0 60px;
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 600px) {
