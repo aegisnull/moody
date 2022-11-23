@@ -49,6 +49,11 @@ Moody es una plataforma donde los usuarios pueden escuchar podcasts sobre salud 
 - Guarde la información del usuario en una base de datos para referencia futura después de actualizar la página.
 - Permitir la autenticación de usuario.
 - Permitir al usuario crear tarjetas-tips. 
+- Agregar funcionalidad a los botones de `ver más` ya que interactuan con la clase Sección para agregar más elementos de los objetos `JavaScript`.
+- Concluir las Cards Colapsables, hacer que se expandan. Agregarlas como clase y crear un objeto que los contenga.
+- Crear una clase podcasts, para poder agregarlas también con `JavaScript` al marcado y hacer más fácil ingresar o cambiar los podcasts con una función.
+- Lograr que se filtren los podcast según los tags seleccionados por el usuario. 
+
 
 ## Proyecto en vivo 💻
 
