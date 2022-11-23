@@ -6,3 +6,17 @@
   gap: 30px;
   padding-top: 43px;
 }
+
+@media screen and (max-width: 1112px) {
+  .comments__container {
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .comments__button {
+    margin: auto;
+  }
+}

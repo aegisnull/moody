@@ -4,3 +4,15 @@
   box-shadow: 0px 5px 7px rgba(119, 119, 119, 0.25);
   border-radius: 25px;
 }
+
+@media screen and (max-width: 1112px) {
+  .comments__bubble {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .comments__bubble {
+    margin: auto;
+  }
+}
