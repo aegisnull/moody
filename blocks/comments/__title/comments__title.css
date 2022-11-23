@@ -6,7 +6,6 @@
   max-width: 1049px;
   margin: auto;
   display: flex;
-  padding-top: 41px;
 }
 
 @media screen and (max-width: 1210px) {
@@ -22,6 +21,6 @@
   .comments__title {
     font-size: 44px;
     line-height: 56px;
-    width: 73%;
+    width: 90%;
   }
 }

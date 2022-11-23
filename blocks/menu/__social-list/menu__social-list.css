@@ -6,8 +6,15 @@
   padding-bottom: 64px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1112px) {
   .menu__social-list {
     padding-bottom: 49px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu__social-list {
+    padding-left: 33px;
+    padding-bottom: 40px;
   }
 }

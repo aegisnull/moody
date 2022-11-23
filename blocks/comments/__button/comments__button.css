@@ -30,5 +30,6 @@
 @media screen and (max-width: 600px) {
   .comments__button {
     margin: auto;
+    font-size: 16px;
   }
 }

@@ -7,12 +7,12 @@
 
 @media screen and (max-width: 1112px) {
   .comments__bubble {
-    width: 75%;
+    width: 95%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .comments__bubble {
-    margin: auto;
+    margin: 0;
   }
 }
