@@ -1,0 +1,6 @@
+@import url(./__overlay/popup__overlay.css);
+@import url(./__container/popup__container.css);
+
+.popup {
+  z-index: 5;
+}
