@@ -1,14 +1,6 @@
 // API to get stories from MongoDB Atlas
 import api from "../utils/api.js";
 
-//api.getStories();
-/* api.getStories().then((data) => {
-  data.forEach((item) => {
-    const card = new Card(item.name, item.story, item._id);
-  });
-}); */
-// End of API to get stories from MongoDB Atlas
-
 // Class imports
 
 import navbarMenu from "../components/navbarMenu.js";
@@ -18,11 +10,11 @@ import Section from "../components/Section.js";
 // Constants imports
 
 import {
-  comments,
   commentSelectors,
   commentTemplate,
   commentsContainer,
   navbarSelector,
+  comments,
 } from "./../utils/constants.js";
 
 // Navbar logic
@@ -32,6 +24,11 @@ const navbar = new navbarMenu(navbarSelector);
 navbar.setEventListeners();
 
 // Comments render & logic
+
+// get comments from MongoDB Atlas
+api.getStories().then((data) => {
+  return comments;
+});
 
 const commentList = new Section(
   {
