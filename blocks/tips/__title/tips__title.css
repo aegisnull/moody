@@ -3,6 +3,8 @@
   font-weight: 500;
   line-height: 52px;
   letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-left: 10px;
 }
 
 .tips__title::after {
