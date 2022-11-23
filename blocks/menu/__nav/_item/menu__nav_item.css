@@ -29,6 +29,8 @@
     line-height: 23.5px;
     letter-spacing: -0.025em;
   }
+}
+
 .menu__nav_item:hover {
   animation: 0.7s pop-on-hover ease;
 }
