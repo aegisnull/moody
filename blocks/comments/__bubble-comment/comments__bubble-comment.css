@@ -1,0 +1,10 @@
+.comments__bubble-comment {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  color: var(--text-gray);
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 20px;
+}
