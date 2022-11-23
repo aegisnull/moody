@@ -15,3 +15,10 @@
   border-radius: 69px;
   margin-top: 80px;
 }
+
+@media screen and (max-width: 614px) {
+  .footer {
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+  }
+}
