@@ -4,3 +4,7 @@
     height: 20px;
   }
 }
+
+.footer__socials:hover {
+  animation: 0.7s pop-on-hover ease;
+}

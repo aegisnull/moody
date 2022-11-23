@@ -18,7 +18,7 @@
 }
 
 .navbar__menu:hover {
-  animation: 0.3s pop-on-hover;
+  animation: 0.7s pop-on-hover ease;
   cursor: pointer;
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
   transform: scale(1);

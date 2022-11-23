@@ -10,3 +10,8 @@
     padding-bottom: 48px;
   }
 }
+
+.footer__logo:hover {
+  animation: 0.7s pop-on-hover ease;
+  cursor: pointer;
+}

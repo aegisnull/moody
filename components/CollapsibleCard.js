@@ -2,10 +2,14 @@ let elementsArray = document.querySelectorAll("section");
 console.log(elementsArray);
 window.addEventListener("scroll", fadeIn);
 
+const cardsArray = document.querySelectorAll(".card");
+console.log(cardsArray);
+
 function fadeIn() {
-  for (var i = 0; i < elementsArray.length; i++) {
-    var elem = elementsArray[i];
-    var distInView = elem.getBoundingClientRect().top - window.innerHeight + 20;
+  for (let i = 0; i < elementsArray.length; i++) {
+    const elem = elementsArray[i];
+    const distInView =
+      elem.getBoundingClientRect().top - window.innerHeight + 20;
     if (distInView < 0) {
       elem.classList.add("inView");
     } else {
