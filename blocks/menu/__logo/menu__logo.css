@@ -5,3 +5,8 @@
   width: 192.3px;
   height: 50.36px;
 }
+
+.menu__logo:hover {
+  animation: 0.7s pop-on-hover ease;
+  cursor: pointer;
+}

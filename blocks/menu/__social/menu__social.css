@@ -3,6 +3,13 @@
   font-size: 16px;
   line-height: 18px;
   font-weight: lighter;
-  color: white;
   text-decoration-line: underline;
+}
+
+.menu__social a {
+  color: var(--primary-light);
+}
+
+.menu__social:hover {
+  animation: 0.7s pop-on-hover ease;
 }
