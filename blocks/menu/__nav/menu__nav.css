@@ -12,7 +12,8 @@
   .menu__nav {
     padding-right: 46px;
     padding-bottom: 49px;
-    gap: 25px;
+    gap: 12.5px;
+    margin: 0;
   }
 }
 
