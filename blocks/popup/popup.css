@@ -10,5 +10,9 @@
 @import url(./__close/popup__close.css);
 
 .popup {
-  z-index: 5;
+  display: none;
+}
+
+.popup_active {
+  display: block;
 }
