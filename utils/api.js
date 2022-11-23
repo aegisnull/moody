@@ -19,7 +19,7 @@ class Api {
     })
       .then(this._checkResponse)
       .then((data) => {
-        return console.log(data);
+        return data;
       });
   }
 }

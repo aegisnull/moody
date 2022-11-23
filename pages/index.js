@@ -25,10 +25,20 @@ navbar.setEventListeners();
 
 // Comments render & logic
 
-// get comments from MongoDB Atlas
-api.getStories().then((data) => {
-  return comments;
-});
+// REVISAR API
+/* api.getStories().then((data) => {
+  const commentList = new Section(
+    {
+      items: data,
+      renderer: (item) => {
+        commentList.addItem(createComment(item));
+      },
+    },
+    commentsContainer
+  );
+
+  commentList.renderItems();
+}); */
 
 const commentList = new Section(
   {
