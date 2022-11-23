@@ -3,7 +3,12 @@
   font-size: 44px;
   line-height: 41px;
   font-weight: 500;
-  color: white;
+  color: var(--primary-light);
+}
+
+.menu__nav_item a {
+  text-decoration: none;
+  color: var(--primary-light);
 }
 
 .menu__nav_item::before {
@@ -24,4 +29,6 @@
     line-height: 23.5px;
     letter-spacing: -0.025em;
   }
+.menu__nav_item:hover {
+  animation: 0.7s pop-on-hover ease;
 }

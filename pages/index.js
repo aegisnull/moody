@@ -1,22 +1,36 @@
-// Variable initialization
-const navbarMenuButton = document.querySelector(".navbar__menu");
-const navbarMenuCloseButton = document.querySelector(".menu__close");
+// Class imports
 
-// Function to open the menu
-navbarMenuButton.addEventListener("click", () => {
-  document.querySelector(".menu").classList.add("menu_active");
-  document
-    .querySelector(".navbar__container")
-    .classList.add("navbar__container_inactive");
-});
+import navbarMenu from "../components/navbarMenu.js";
 
-// Function to close the menu
-navbarMenuCloseButton.addEventListener("click", () => {
-  document.querySelector(".menu").classList.remove("menu_active");
-  document
-    .querySelector(".navbar__container")
-    .classList.remove("navbar__container_inactive");
-});
+// Constants imports
+
+import { navbarSelector } from "./../utils/constants.js";
+
+// Navbar logic
+
+const navbar = new navbarMenu(navbarSelector);
+
+navbar.setEventListeners();
+
+// // Function to open the menu
+// navbarMenuButton.addEventListener("click", () => {
+//   const menu = document.querySelector(".menu");
+//   const menuContainer = document.querySelector(".menu__container");
+//   menu.classList.add("menu_active");
+//   menuContainer.classList.add("slide-in");
+
+//   document
+//     .querySelector(".navbar__container")
+//     .classList.add("navbar__container_inactive");
+// });
+
+// // Function to close the menu
+// navbarMenuCloseButton.addEventListener("click", () => {
+//   document.querySelector(".menu").classList.remove("menu_active");
+//   document
+//     .querySelector(".navbar__container")
+//     .classList.remove("navbar__container_inactive");
+// });
 
 // Variable initialization
 const shareStoryButton = document.querySelector(".moods__card-button");
@@ -37,3 +51,5 @@ storyPopupCloseButton.addEventListener("click", () => {
     .querySelector(".navbar__container")
     .classList.remove("navbar__container_inactive");
 });
+
+//api.test();

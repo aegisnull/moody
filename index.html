@@ -11,9 +11,9 @@
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
   </head>
   <body>
-    <nav class="navbar">
+    <nav class="navbar" id="home">
       <div class="navbar__container">
-        <a href="#"
+        <a href="#home"
           ><img src="./images/logo.svg" alt="logo" class="navbar__logo"
         /></a>
         <div class="navbar__menu">
@@ -65,7 +65,7 @@
       <img class="divider" src="./images/divider.svg" alt="divider" />
     </div>
 
-    <section class="moods">
+    <section class="moods" id="moods">
       <div class="moods__container">
         <h2 class="moods__title">
           Comparte tu estado de ánimo con nosotros y cuéntanos cómo te sientes
@@ -173,7 +173,7 @@
       <img class="divider" src="./images/divider.svg" alt="divider" />
     </div>
 
-    <section class="tips">
+    <section class="tips" id="tips">
       <h2 class="tips__title">Permítenos Recomendarte</h2>
       <div class="tips__elements">
         <article class="card card_order">
@@ -304,7 +304,7 @@
       <img class="divider" src="./images/divider.svg" alt="divider" />
     </div>
 
-    <section class="podcast">
+     <section class="podcast" id="podcast">
       <div class="podcast__container">
         <h2 class="podcast__title">Conoce estos Podcast ♢</h2>
         <article class="podcast__show">
@@ -359,13 +359,13 @@
           </div>
         </article>
       </div>
-    </section>
+    </section> 
 
     <div class="divider__container">
       <img class="divider" src="./images/divider.svg" alt="divider" />
     </div>
 
-    <section class="professionals">
+    <section class="professionals" id="professionals">
       <div class="professionals__header">
         <h2 class="professionals__title">Los profesionales</h2>
         <button class="professionals__button">
@@ -483,7 +483,7 @@
       <div class="footer__container">
         <div class="footer__top-menu">
           <div class="footer__left-container">
-            <a href="#"
+            <a href="#home"
               ><img class="footer__logo" src="./images/logo.svg" alt="logo"
             /></a>
           </div>
@@ -500,10 +500,10 @@
             <div class="footer__column">
               <p class="footer__column-title">Enfoque</p>
               <ul>
-                <li><a class="footer__links" href="#">Estados de Ánimo</a></li>
-                <li><a class="footer__links" href="#">Recomendaciones</a></li>
-                <li><a class="footer__links" href="#">Podcast</a></li>
-                <li><a class="footer__links" href="#">Profesionales</a></li>
+                <li><a class="footer__links" href="#moods">Estados de Ánimo</a></li>
+                <li><a class="footer__links" href="#tips">Recomendaciones</a></li>
+                <li><a class="footer__links" href="#podcast">Podcast</a></li>
+                <li><a class="footer__links" href="#professionals">Profesionales</a></li>
               </ul>
             </div>
           </div>
@@ -538,15 +538,15 @@
           </button>
           <ul class="menu__social-list">
             <li class="menu__list-title">Social</li>
-            <li class="menu__social">Facebook</li>
-            <li class="menu__social">Instagram</li>
-            <li class="menu__social">LinkedIn</li>
+            <li class="menu__social"><a href="#">Facebook</a></li>
+            <li class="menu__social"><a href="#">Instagram</a></li>
+            <li class="menu__social"><a href="#">LinkedIn</a></li>
           </ul>
           <ul class="menu__nav">
-            <li class="menu__nav_item">¿Cómo te sientes?</li>
-            <li class="menu__nav_item">Recomendaciones</li>
-            <li class="menu__nav_item">Podcast</li>
-            <li class="menu__nav_item">Profesionales</li>
+            <li class="menu__nav_item"><a href="#moods">¿Cómo te sientes?</li>
+            <li class="menu__nav_item"><a href="#tips">Recomendaciones</li>
+            <li class="menu__nav_item"><a href="#podcast">Podcast</li>
+            <li class="menu__nav_item"><a href="#professionals">Profesionales</li>
           </ul>
         </div>
       </div>
@@ -595,7 +595,6 @@
       </div>
     </div>
 
-    <script src="./components/CollapsibleCard.js"></script>
-    <script src="./pages/index.js"></script>
+    <script type="module" src="./pages/index.js"></script>
   </body>
 </html>

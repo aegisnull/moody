@@ -1,5 +1,4 @@
 /* section {
-  transform: translateY(50px) rotate(-5deg) translateZ(0);
   transition-delay: 0.3s;
   transition: 0.4s;
   opacity: 0;
@@ -7,5 +6,4 @@
 
 .inView {
   opacity: 1;
-  transform: translateY(0px) rotate(0deg) translateZ(0);
 } */
