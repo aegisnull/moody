@@ -5,3 +5,12 @@
   width: 192.3px;
   height: 50.36px;
 }
+
+@media screen and (max-width: 600px) {
+  .menu__logo {
+    width: 150px;
+    height: 40px;
+    top: 26px;
+    left: 17px;
+  }
+}

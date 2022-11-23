@@ -4,7 +4,7 @@
   line-height: 52px;
   letter-spacing: -0.02em;
   margin-top: 0;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .tips__title::after {
@@ -21,6 +21,7 @@
 @media screen and (max-width: 640px) {
   .tips__title {
     font-size: 44px;
+    margin-left: 14px;
   }
 
   .tips__title::after {
