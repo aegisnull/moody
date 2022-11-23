@@ -13,8 +13,9 @@
     top: 26px;
     left: 17px;
   }
-  
-.menu__logo:hover {
-  animation: 0.7s pop-on-hover ease;
-  cursor: pointer;
+
+  .menu__logo:hover {
+    animation: 0.7s pop-on-hover ease;
+    cursor: pointer;
+  }
 }
