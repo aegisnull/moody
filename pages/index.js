@@ -1,3 +1,5 @@
+import api from "../utils/api";
+
 // Variable initialization
 const navbarMenuButton = document.querySelector(".navbar__menu");
 const navbarMenuCloseButton = document.querySelector(".menu__close");
