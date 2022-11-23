@@ -12,7 +12,7 @@ class Api {
   }
 
   //GET https://data.mongodb-api.com/app/data-osktx/endpoint/stories
-  getUserInfo() {
+  getStories() {
     return fetch(`${this._baseUrl}/stories`, {
       method: "GET",
       headers: this._headers,
@@ -21,6 +21,10 @@ class Api {
       .then((data) => {
         return console.log(data);
       });
+  }
+
+  test() {
+    console.log("test");
   }
 }
 

@@ -1,4 +1,4 @@
-import api from "../utils/api";
+//import api from "../utils/api";
 
 // Variable initialization
 const navbarMenuButton = document.querySelector(".navbar__menu");
@@ -39,3 +39,5 @@ storyPopupCloseButton.addEventListener("click", () => {
     .querySelector(".navbar__container")
     .classList.remove("navbar__container_inactive");
 });
+
+//api.test();
