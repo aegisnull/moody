@@ -21,7 +21,7 @@
 }
 
 .moods__button:hover {
-  animation: 0.3s pop-on-hover;
+  animation: 0.7s pop-on-hover ease;
   cursor: pointer;
 }
 

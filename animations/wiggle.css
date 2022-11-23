@@ -1,0 +1,11 @@
+@keyframes wiggle {
+  25% {
+    rotate: 1deg;
+  }
+  50% {
+    rotate: -1deg;
+  }
+  75% {
+    rotate: 1deg;
+  }
+}

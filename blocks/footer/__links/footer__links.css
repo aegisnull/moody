@@ -3,6 +3,8 @@
   line-height: 18px;
   font-weight: 400;
   color: #a2a2a2;
+  text-decoration: none;
+  display: block;
 }
 
 @media screen and (max-width: 800px) {
@@ -18,4 +20,8 @@
     font-size: 14px;
     line-height: 16px;
   }
+}
+
+.footer__links:hover {
+  animation: 0.7s pop-on-hover ease;
 }

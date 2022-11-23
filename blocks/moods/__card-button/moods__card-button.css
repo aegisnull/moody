@@ -28,7 +28,7 @@
 }
 
 .moods__card-button:hover {
-  animation: 0.3s pop-on-hover;
+  animation: 0.7s pop-on-hover ease;
   opacity: 0.7;
   cursor: pointer;
 }
