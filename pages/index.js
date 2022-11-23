@@ -12,10 +12,18 @@ import api from "../utils/api.js";
 // Class imports
 
 import navbarMenu from "../components/navbarMenu.js";
+import Comment from "../components/Comment.js";
+import Section from "../components/Section.js";
 
 // Constants imports
 
-import { navbarSelector } from "./../utils/constants.js";
+import {
+  comments,
+  commentSelectors,
+  commentTemplate,
+  commentsContainer,
+  navbarSelector,
+} from "./../utils/constants.js";
 
 // Navbar logic
 
@@ -23,25 +31,34 @@ const navbar = new navbarMenu(navbarSelector);
 
 navbar.setEventListeners();
 
-// // Function to open the menu
-// navbarMenuButton.addEventListener("click", () => {
-//   const menu = document.querySelector(".menu");
-//   const menuContainer = document.querySelector(".menu__container");
-//   menu.classList.add("menu_active");
-//   menuContainer.classList.add("slide-in");
+// Comments render & logic
 
-//   document
-//     .querySelector(".navbar__container")
-//     .classList.add("navbar__container_inactive");
-// });
+const commentList = new Section(
+  {
+    items: comments,
+    renderer: (item) => {
+      commentList.addItem(createComment(item));
+    },
+  },
+  commentsContainer
+);
 
-// // Function to close the menu
-// navbarMenuCloseButton.addEventListener("click", () => {
-//   document.querySelector(".menu").classList.remove("menu_active");
-//   document
-//     .querySelector(".navbar__container")
-//     .classList.remove("navbar__container_inactive");
-// });
+const createComment = (commentData) => {
+  // if (checkCommentsLength) {
+  const newComment = new Comment(commentData, commentTemplate);
+  const commentElement = newComment.generateComment(commentSelectors);
+  return commentElement;
+  // }
+};
+
+// const checkCommentsLength = () => {
+//   const commentsArray = document.querySelectorAll(".comments__bubble");
+//   return commentsArray.length < 4 ? true : false;
+// };
+
+// window.addEventListener("click", checkCommentsLength);
+
+commentList.renderItems();
 
 // Variable initialization
 const shareStoryButton = document.querySelector(".moods__card-button");
