@@ -1,0 +1,22 @@
+.popup__button {
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15.5px 9px;
+  position: absolute;
+  right: 100px;
+  bottom: 24px;
+}
+
+.popup__button:nth-of-type(2) {
+  background-color: black;
+  color: white;
+  right: 24px;
+}

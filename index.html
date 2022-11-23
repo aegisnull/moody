@@ -473,7 +473,9 @@
           <h2 class="popup__title">Cuéntanos cómo te sientes</h2>
           <form class="popup__form">
             <fieldset class="popup__fieldset">
-              <label class="popup__label" for="name">¿Cúal es tu nombre?</label>
+              <label class="popup__label" for="name"
+                >¿Cuál es tu nombre? :
+              </label>
               <input
                 class="popup__input"
                 type="text"
@@ -482,11 +484,11 @@
                 placeholder="Nombre y Apellido"
               />
             </fieldset>
-            <input
-              class="popup__input"
+            <textarea
+              class="popup__textarea"
               type="text"
               placeholder="Escribe aquí..."
-            />
+            ></textarea>
             <div class="popup__checkmark">
               <input
                 class="popup__checkmark-input"
@@ -498,6 +500,8 @@
                 >Quiero ser Anónimo</label
               >
             </div>
+            <button class="popup__button">Cancelar</button>
+            <button class="popup__button">Enviar</button>
           </form>
         </div>
       </div>
