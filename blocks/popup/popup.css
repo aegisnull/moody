@@ -7,6 +7,7 @@
 @import url(./__textarea/popup__textarea.css);
 @import url(./__checkmark-label/popup__checkmark-label.css);
 @import url(./__button/popup__button.css);
+@import url(./__close/popup__close.css);
 
 .popup {
   z-index: 5;
