@@ -1,3 +1,14 @@
+// API to get stories from MongoDB Atlas
+import api from "../utils/api.js";
+
+//api.getStories();
+/* api.getStories().then((data) => {
+  data.forEach((item) => {
+    const card = new Card(item.name, item.story, item._id);
+  });
+}); */
+// End of API to get stories from MongoDB Atlas
+
 // Class imports
 
 import navbarMenu from "../components/navbarMenu.js";
@@ -51,5 +62,3 @@ storyPopupCloseButton.addEventListener("click", () => {
     .querySelector(".navbar__container")
     .classList.remove("navbar__container_inactive");
 });
-
-//api.test();

@@ -22,10 +22,6 @@ class Api {
         return console.log(data);
       });
   }
-
-  test() {
-    console.log("test");
-  }
 }
 
 const api = new Api({
