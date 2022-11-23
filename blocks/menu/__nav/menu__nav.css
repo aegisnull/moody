@@ -7,3 +7,11 @@
   padding-right: 184px;
   padding-bottom: 61px;
 }
+
+@media screen and (max-width: 900px) {
+  .menu__nav {
+    padding-right: 46px;
+    padding-bottom: 49px;
+    gap: 25px;
+  }
+}

@@ -9,3 +9,11 @@
 .menu__nav_item::before {
   content: "– ";
 }
+
+@media screen and (max-width: 900px) {
+  .menu__nav_item {
+    font-size: 42px;
+    line-height: 39px;
+    letter-spacing: -0.025em;
+  }
+}

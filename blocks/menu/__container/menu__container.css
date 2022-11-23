@@ -12,3 +12,21 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+
+@media screen and (max-width: 900px) {
+  .menu__container {
+    height: 438px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .menu__container {
+    height: 100vh;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 151px;
+  }
+}

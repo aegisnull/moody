@@ -1,0 +1,10 @@
+.popup__container {
+  width: 573px;
+  height: 395px;
+  background-color: white;
+  border-radius: 18px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

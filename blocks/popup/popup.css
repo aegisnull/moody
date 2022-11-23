@@ -1,0 +1,18 @@
+@import url(./__overlay/popup__overlay.css);
+@import url(./__container/popup__container.css);
+@import url(./__title/popup__title.css);
+@import url(./__form/popup__form.css);
+@import url(./__fieldset/popup__fieldset.css);
+@import url(./__input/popup__input.css);
+@import url(./__textarea/popup__textarea.css);
+@import url(./__checkmark-label/popup__checkmark-label.css);
+@import url(./__button/popup__button.css);
+@import url(./__close/popup__close.css);
+
+.popup {
+  display: none;
+}
+
+.popup_active {
+  display: block;
+}

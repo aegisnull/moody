@@ -8,4 +8,9 @@
 @import url(./__nav/menu__nav.css);
 
 .menu {
+  display: none;
+}
+
+.menu_active {
+  display: block;
 }
