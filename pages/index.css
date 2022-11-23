@@ -21,8 +21,13 @@
 @import url(../animations/fadein-inview.css);
 @import url(../animations/wiggle.css);
 @import url(../animations/slide-in.css);
+@import url(../animations/slide-out.css);
 
 /* AJUSTES GLOBALES */
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: var(--bg-light);
