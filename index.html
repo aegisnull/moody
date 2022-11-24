@@ -536,6 +536,73 @@
       </div>
     </div>
 
+    <!-- POP UP FORMULARIO PROFESIONALES -->
+
+        <div class="popup_professionals">
+      <div class="popup__overlay">
+        <div class="popup__container popup__container_professionals">
+          <button class="popup__close">
+            <img src="./images/popup__close.svg" alt="close-icon" />
+          </button>
+          <h2 class="popup__title">Conversemos</h2>
+          <form class="popup__form popup__form_professionals">
+            <fieldset class="popup__fieldset">
+              <label class="popup__label" for="name"
+                >¿Cuál es tu nombre? :
+              </label>
+              <input
+                class="popup__input popup__input_professionals"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Nombre y Apellido"
+              />
+
+            </fieldset>
+            <fieldset class="popup__fieldset">
+              <label class="popup__label" for="email"
+                >¿Cómo podemos contactarte? :
+              </label>
+              <input
+                class="popup__input popup__input_professionals"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="johndoe@example.com"
+              />
+            </fieldset>
+
+             <fieldset class="popup__fieldset">
+              <label class="popup__label" for="start"
+                >Selecciona la fecha ideal para ti :
+              </label>
+              <input
+                class="popup__input popup__input_professionals"
+                type="date"
+                id="start"
+                name="date-start"
+                value="23/11/2022"
+              />
+            </fieldset>
+
+             <fieldset class="popup__fieldset">
+              <label class="popup__label" for="appt"
+                >Selecciona el horario para ti :
+              </label>
+              <input
+                class="popup__input popup__input_professionals"
+                type="time"
+                id="appt"
+                name="appt"
+                min="09:00" max="18:00" required>
+            </fieldset>
+            <button class="popup__button">Cancelar</button>
+            <button class="popup__button">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
     <!-- TEMPLATES -->
 
     <template id="template_comments">

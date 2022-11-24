@@ -1,0 +1,5 @@
+.popup__form_professionals {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}

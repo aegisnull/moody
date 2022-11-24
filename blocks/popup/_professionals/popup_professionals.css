@@ -1,0 +1,7 @@
+.popup_professionals {
+  display: none;
+}
+
+.popup_professionals_active {
+  display: block;
+}
