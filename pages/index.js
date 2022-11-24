@@ -20,7 +20,6 @@ import {
   commentsContainer,
   professionalsContainer,
   navbarSelector,
-  comments,
 } from "./../utils/constants.js";
 
 // Navbar logic
