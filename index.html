@@ -245,7 +245,7 @@
       <img class="divider" src="./images/divider.svg" alt="divider" />
     </div>
 
-     <!-- <section class="podcast" id="podcast">
+    <!-- <section class="podcast" id="podcast">
       <div class="podcast__container">
         <h2 class="podcast__title">Conoce estos Podcast ♢</h2>
         <article class="podcast__show">
@@ -441,10 +441,18 @@
             <div class="footer__column">
               <p class="footer__column-title">Enfoque</p>
               <ul>
-                <li><a class="footer__links" href="#moods">Estados de Ánimo</a></li>
-                <li><a class="footer__links" href="#tips">Recomendaciones</a></li>
+                <li>
+                  <a class="footer__links" href="#moods">Estados de Ánimo</a>
+                </li>
+                <li>
+                  <a class="footer__links" href="#tips">Recomendaciones</a>
+                </li>
                 <li><a class="footer__links" href="#podcast">Podcast</a></li>
-                <li><a class="footer__links" href="#professionals">Profesionales</a></li>
+                <li>
+                  <a class="footer__links" href="#professionals"
+                    >Profesionales</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -484,10 +492,14 @@
             <li class="menu__social"><a href="#">LinkedIn</a></li>
           </ul>
           <ul class="menu__nav">
-            <li class="menu__nav_item"><a href="#moods">¿Cómo te sientes?</li>
-            <li class="menu__nav_item"><a href="#tips">Recomendaciones</li>
-            <li class="menu__nav_item"><a href="#podcast">Podcast</li>
-            <li class="menu__nav_item"><a href="#professionals">Profesionales</li>
+            <li class="menu__nav_item">
+              <a href="#moods">¿Cómo te sientes?</a>
+            </li>
+            <li class="menu__nav_item"><a href="#tips">Recomendaciones</a></li>
+            <li class="menu__nav_item"><a href="#podcast">Podcast</a></li>
+            <li class="menu__nav_item">
+              <a href="#professionals">Profesionales</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -539,18 +551,14 @@
     <!-- TEMPLATES -->
 
     <template id="template_comments">
-    <div class="comments__bubble">
-      <div class="comments__bubble-box">
-        <img
-          src=""
-          alt="Avatar de usuario"
-          class="comments__bubble-avatar"
-        />
-        <h3 class="comments__bubble-name"></h3>
+      <div class="comments__bubble">
+        <div class="comments__bubble-box">
+          <img src="" alt="Avatar de usuario" class="comments__bubble-avatar" />
+          <h3 class="comments__bubble-name"></h3>
+        </div>
+        <p class="comments__bubble-comment"></p>
       </div>
-      <p class="comments__bubble-comment"></p>
-    </div>
-  </template>
+    </template>
 
     <script type="module" src="./pages/index.js"></script>
   </body>
