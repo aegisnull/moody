@@ -57,7 +57,7 @@ Moody es una plataforma donde los usuarios pueden escuchar podcasts sobre salud 
 
 ## Proyecto en vivo 💻
 
-- [Github Pages](https://aegisnull.github.io/moody/)
+- [Netlify](https://moody-app.netlify.app)
 
 ## Créditos
 
