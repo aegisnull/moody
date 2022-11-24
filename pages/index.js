@@ -230,3 +230,22 @@ function checkClassList() {
     resetText();
   }
 }
+
+// open professional help modal
+const agendarCitaButton = document.querySelectorAll(
+  ".collapsible-card__button"
+);
+const citaModal = document.querySelector(".popup_professionals");
+
+agendarCitaButton.forEach((button) => {
+  button.addEventListener("click", () => {
+    citaModal.classList.toggle("popup_professionals_active");
+  });
+});
+
+// close professional help modal
+const closeCitaModal = document.querySelector(".popup__close_professionals");
+
+closeCitaModal.addEventListener("click", () => {
+  citaModal.classList.remove("popup_professionals_active");
+});
