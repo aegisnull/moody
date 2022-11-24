@@ -5,14 +5,20 @@ import api from "../utils/api.js";
 
 import navbarMenu from "../components/navbarMenu.js";
 import Comment from "../components/Comment.js";
+import CollapsibleCard from "../components/CollapsibleCard.js";
 import Section from "../components/Section.js";
 
 // Constants imports
 
 import {
+  comments,
+  professionals,
   commentSelectors,
+  collapsibleCardSelectors,
   commentTemplate,
+  collapsibleCardTemplate,
   commentsContainer,
+  professionalsContainer,
   navbarSelector,
   comments,
 } from "./../utils/constants.js";
@@ -44,7 +50,7 @@ const commentList = new Section(
   {
     items: comments,
     renderer: (item) => {
-      commentList.addItem(createComment(item));
+      commentList.prependItem(createComment(item));
     },
   },
   commentsContainer
@@ -63,9 +69,27 @@ const createComment = (commentData) => {
 //   return commentsArray.length < 4 ? true : false;
 // };
 
-// window.addEventListener("click", checkCommentsLength);
-
 commentList.renderItems();
+
+// CollapsibleCards render & logic
+
+const collapsibleCardList = new Section(
+  {
+    items: professionals,
+    renderer: (item) => {
+      collapsibleCardList.addItem(createCollapsibleCard(item));
+    },
+  },
+  professionalsContainer
+);
+
+const createCollapsibleCard = (cardData) => {
+  const newCard = new CollapsibleCard(cardData, collapsibleCardTemplate);
+  const cardElement = newCard.generateCard(collapsibleCardSelectors);
+  return cardElement;
+};
+
+collapsibleCardList.renderItems();
 
 // Variable initialization
 const shareStoryButton = document.querySelector(".moods__card-button");
