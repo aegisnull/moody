@@ -73,12 +73,12 @@
         </h2>
         <div class="moods__main">
           <div class="moods__feels">
-            <div class="moods__button">ESTUPEND@ 🤕</div>
-            <div class="moods__button">TRISTE 😞</div>
-            <div class="moods__button">OKAY 🙂</div>
-            <div class="moods__button">PREOCUPAD@ 😰</div>
-            <div class="moods__button">ESTRESAD@ 😵‍💫</div>
-            <div class="moods__button">CANSADO 🤕</div>
+            <button class="moods__button">TRISTE 😞</button>
+            <button class="moods__button">ESTUPEND@ 🤕</button>
+            <button class="moods__button">OKAY 🙂</button>
+            <button class="moods__button">PREOCUPAD@ 😰</button>
+            <button class="moods__button">ESTRESAD@ 😵‍💫</button>
+            <button class="moods__button">CANSADO 🤕</button>
           </div>
           <div class="moods__card">
             <p class="moods__subtitle">Es Normal...</p>
@@ -550,7 +550,7 @@
 
     <!-- POP UP FORMULARIO PROFESIONALES -->
 
-        <div class="popup_professionals">
+    <div class="popup_professionals">
       <div class="popup__overlay">
         <div class="popup__container popup__container_professionals">
           <button class="popup__close">
@@ -569,7 +569,6 @@
                 name="name"
                 placeholder="Nombre y Apellido"
               />
-
             </fieldset>
             <fieldset class="popup__fieldset">
               <label class="popup__label" for="email"
@@ -584,7 +583,7 @@
               />
             </fieldset>
 
-             <fieldset class="popup__fieldset">
+            <fieldset class="popup__fieldset">
               <label class="popup__label" for="start"
                 >Selecciona la fecha ideal para ti :
               </label>
@@ -597,7 +596,7 @@
               />
             </fieldset>
 
-             <fieldset class="popup__fieldset">
+            <fieldset class="popup__fieldset">
               <label class="popup__label" for="appt"
                 >Selecciona el horario para ti :
               </label>
@@ -606,7 +605,10 @@
                 type="time"
                 id="appt"
                 name="appt"
-                min="09:00" max="18:00" required>
+                min="09:00"
+                max="18:00"
+                required
+              />
             </fieldset>
             <button class="popup__button">Cancelar</button>
             <button class="popup__button">Enviar</button>

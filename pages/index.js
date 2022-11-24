@@ -86,3 +86,11 @@ storyPopupCloseButton.addEventListener("click", () => {
     .querySelector(".navbar__container")
     .classList.remove("navbar__container_inactive");
 });
+
+// Mood buttons logic
+const moodEstupendoButton = document.querySelector(".moods__card-estupendo");
+const moodTristeButton = document.querySelector(".moods__card-bueno");
+const moodOkayButton = document.querySelector(".moods__card-triste");
+const moodPreocupadoButton = document.querySelector(".moods__card-mal");
+const moodEstresadoButton = document.querySelector(".moods__card-estresado");
+const moodCansadoButton = document.querySelector(".moods__card-enojado");
