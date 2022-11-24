@@ -88,9 +88,106 @@ storyPopupCloseButton.addEventListener("click", () => {
 });
 
 // Mood buttons logic
-const moodEstupendoButton = document.querySelector(".moods__card-estupendo");
-const moodTristeButton = document.querySelector(".moods__card-bueno");
-const moodOkayButton = document.querySelector(".moods__card-triste");
-const moodPreocupadoButton = document.querySelector(".moods__card-mal");
-const moodEstresadoButton = document.querySelector(".moods__card-estresado");
-const moodCansadoButton = document.querySelector(".moods__card-enojado");
+const moodEstupendoButton = document.querySelector(".moods__button_estupendo");
+const moodTristeButton = document.querySelector(".moods__button_triste");
+const moodOkayButton = document.querySelector(".moods__button_okay");
+const moodPreocupadoButton = document.querySelector(
+  ".moods__button_preocupado"
+);
+const moodEstresadoButton = document.querySelector(".moods__button_estresado");
+const moodCansadoButton = document.querySelector(".moods__button_cansado");
+
+const moodCard = document.querySelector(".moods__card");
+const moodCardTitle = document.querySelector(".moods__subtitle");
+const moodArgument1 = document.querySelector(".moods__list_1");
+const moodArgument2 = document.querySelector(".moods__list_2");
+const moodArgument3 = document.querySelector(".moods__list_3");
+
+moodEstupendoButton.addEventListener("click", () => {
+  moodEstupendoButton.classList.toggle("moods__button_estupendo_active");
+  moodCard.classList.toggle("moods__button_estupendo_active");
+  moodCard.classList.toggle("moods__card_active");
+  moodCardTitle.textContent = "¡Excelente! 🙂";
+  moodArgument1.textContent = "Lidiar con la soledad.";
+  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
+  moodArgument3.textContent =
+    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  checkClassList();
+});
+
+moodTristeButton.addEventListener("click", () => {
+  moodTristeButton.classList.toggle("moods__button_triste_active");
+  moodCard.classList.toggle("moods__button_triste_active");
+  moodCard.classList.toggle("moods__card_active");
+  moodCardTitle.textContent = "Es normal sentirse triste";
+  moodArgument1.textContent = "Lidiar con la soledad.";
+  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
+  moodArgument3.textContent =
+    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  checkClassList();
+});
+
+moodOkayButton.addEventListener("click", () => {
+  moodOkayButton.classList.toggle("moods__button_okay_active");
+  moodCard.classList.toggle("moods__button_okay_active");
+  moodCard.classList.toggle("moods__card_active");
+  moodCardTitle.textContent = "¡Está bien! 🙂";
+  moodArgument1.textContent = "Lidiar con la soledad.";
+  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
+  moodArgument3.textContent =
+    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  checkClassList();
+});
+
+moodPreocupadoButton.addEventListener("click", () => {
+  moodPreocupadoButton.classList.toggle("moods__button_preocupado_active");
+  moodCard.classList.toggle("moods__button_preocupado_active");
+  moodCard.classList.toggle("moods__card_active");
+  moodCardTitle.textContent = "Es normal sentirse así 😞";
+  moodArgument1.textContent = "Lidiar con la soledad.";
+  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
+  moodArgument3.textContent =
+    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  checkClassList();
+});
+
+moodEstresadoButton.addEventListener("click", () => {
+  moodEstresadoButton.classList.toggle("moods__button_estresado_active");
+  moodCard.classList.toggle("moods__button_estresado_active");
+  moodCard.classList.toggle("moods__card_active");
+  moodCardTitle.textContent = "Es normal sentirse así 😞";
+  moodArgument1.textContent = "Lidiar con la soledad.";
+  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
+  moodArgument3.textContent =
+    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  checkClassList();
+});
+
+moodCansadoButton.addEventListener("click", () => {
+  moodCansadoButton.classList.toggle("moods__button_cansado_active");
+  moodCard.classList.toggle("moods__button_cansado_active");
+  moodCard.classList.toggle("moods__card_active");
+  moodCardTitle.textContent = "Es normal sentirse así 😞";
+  moodArgument1.textContent = "Lidiar con la soledad.";
+  moodArgument2.textContent = "La lucha contra la salud mental cambió mi vida.";
+  moodArgument3.textContent =
+    "La tristeza es una emoción como cualquier otra y tiene su función y puedes expresarla.";
+  checkClassList();
+});
+
+// reset text on button click
+const resetText = () => {
+  moodCardTitle.textContent = "¿Cómo estás?";
+  moodArgument1.textContent = "Comparte tu historia con los demas.";
+  moodArgument2.textContent =
+    "Lee las historias de otros usuarios y deja un comentario.";
+  moodArgument3.textContent =
+    "Es importante que sepas que no estas solo en esto.";
+};
+
+function checkClassList() {
+  if (moodCard.classList.contains("moods__card_active")) {
+  } else {
+    resetText();
+  }
+}
