@@ -1,4 +1,18 @@
 .collapsible-card__data {
-  opacity: 1;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0px 15px 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: start;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible-card__data p,
+ul {
   margin: 0;
 }

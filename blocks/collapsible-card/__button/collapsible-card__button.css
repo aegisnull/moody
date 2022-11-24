@@ -1,0 +1,22 @@
+.collapsible-card__button {
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 163px;
+  height: 40px;
+  color: var(--text-dark);
+  padding: 6px 10px;
+  font-size: 16px;
+  line-height: 15px;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+  border: none;
+}
+
+.collapsible-card__button:hover {
+  animation: 0.7s pop-on-hover ease;
+  opacity: 0.7;
+  cursor: pointer;
+}
