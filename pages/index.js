@@ -63,6 +63,22 @@ const createComment = (commentData) => {
   // }
 };
 
+const moodForm = document.querySelector(".popup");
+
+moodForm.addEventListener("submit", (evt) => {
+  evt.preventDefault();
+  const commentUser = document.querySelector("#checkmark").checked
+    ? "Anónimo"
+    : document.querySelector("#name").value;
+  const commentMsg = document.querySelector("#comment").value;
+  const commentData = {
+    user: commentUser,
+    avatar: "./images/comments__bubble-avatar-1.png",
+    comment: commentMsg,
+  };
+  commentList.prependItem(createComment(commentData));
+});
+
 // const checkCommentsLength = () => {
 //   const commentsArray = document.querySelectorAll(".comments__bubble");
 //   return commentsArray.length < 4 ? true : false;
